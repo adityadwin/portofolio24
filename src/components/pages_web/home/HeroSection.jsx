@@ -66,7 +66,10 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="container lg:px-14 sm:px-12 lg:flex flex-col lg:flex-row pb-10">
+    <div
+      id="hero"
+      className="container lg:px-16 px-2 lg:flex flex-col lg:flex-row"
+    >
       <div className="left-side lg:w-3/4 py-4 lg:py-12">
         {/* Main heading */}
         <h1 className="scroll-animate opacity-0 text-[60px] lg:text-[110px] font-bold text-[#1E5775] leading-[45px] lg:leading-[90px] lg:w-[90%]">
@@ -74,9 +77,11 @@ const Hero = () => {
         </h1>
 
         {/* Sub heading with name */}
-        <h2 className="scroll-animate opacity-0 text-[45px] lg:text-[85px] font-bold lg:leading-[35px] leading-[45px] lg:mt-8 text-[#1E5775]">
-          my name is{" "}
-          <span className="lg:text-[70px] text-[45px] lg:mt-14">Aditya</span>
+        <h2 className="scroll-animate opacity-0 text-[55px] lg:text-[85px] font-bold lg:leading-[35px] leading-[45px] mt-4 lg:mt-8 text-[#1E5775]">
+          i&apos;m
+          <span className="lg:text-[70px] text-[55px] ms-4 text-[#97BDD1] lg:mt-14">
+            Aditya
+          </span>
         </h2>
 
         {/* Description paragraph */}
@@ -89,11 +94,14 @@ const Hero = () => {
         {/* Count-up statistics */}
         <div className="count flex font-semibold gap-16 lg:gap-40 text-xl lg:text-2xl mt-2 lg:justify-start lg:items-start justify-center items-center">
           {["40", "100", "5000"].map((target, index) => (
-            <div key={index} className="scroll-animate opacity-0 text-center">
+            <div
+              key={index}
+              className="scroll-animate opacity-0 text-center text-[#42677A]"
+            >
               <h3 className="count-up" data-target={target}>
                 0+
               </h3>
-              <p className="text-base lg:text-lg font-normal">
+              <p className="text-base lg:text-base font-normal">
                 {["Clients", "Projects", "Work Hours"][index]}
               </p>
             </div>
@@ -102,11 +110,11 @@ const Hero = () => {
       </div>
 
       {/* Right side image section */}
-      <div className="right-side lg:w-2/5 mt-2 lg:mt-12 bg-[#42677A] lg:rounded-2xl rounded-full h-[380px] lg:h-[550px] lg:max-h-[550px] lg:min-w-[490px] opacity-0 scroll-animate animate-fade-right">
+      <div className="right-side lg:w-2/5 lg:mt-12 bg-[#42677A] lg:rounded-2xl rounded-3xl lg:p-0 m-10  lg:h-[550px] lg:max-h-[550px] lg:min-w-[490px] opacity-0 scroll-animate animate-fade-right mt-4">
         <img
           src="https://i.ibb.co.com/m4hNPWx/Me.png"
           alt="Hero Image"
-          className="w-full h-full object-cover lg:rounded-2xl rounded-full"
+          className="w-full h-full object-cover lg:rounded-2xl rounded-3xl"
         />
       </div>
     </div>
