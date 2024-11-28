@@ -1,4 +1,5 @@
 import Navbar from "./components/header_web/Navbar";
+import Experience from "./components/pages_web/experience/ExperinecePage";
 import Hero from "./components/pages_web/home/HeroSection";
 import SkillsPage from "./components/pages_web/skills/SkillsPage";
 
@@ -9,6 +10,7 @@ function App() {
         <Navbar />
         <Hero />
         <SkillsPage />
+        <Experience />
       </div>
     </div>
   );
