@@ -67,7 +67,7 @@ const Experience = () => {
 
   return (
     <div
-      id="skills"
+      id="experience"
       className="container w-full h-auto pt-10 pb-8 lg:px-16 px-4 border-t-8 border-[#1E5775]"
     >
       {/* Title Section */}
