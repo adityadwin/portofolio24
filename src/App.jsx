@@ -1,5 +1,6 @@
 import Navbar from "./components/header_web/Navbar";
 import Experience from "./components/pages_web/experience/ExperinecePage";
+import Footer from "./components/pages_web/footer/Footer";
 import Hero from "./components/pages_web/home/HeroSection";
 import ProjectPage from "./components/pages_web/projects/ProjectPage";
 import SkillsPage from "./components/pages_web/skills/SkillsPage";
@@ -13,6 +14,7 @@ function App() {
         <SkillsPage />
         <Experience />
         <ProjectPage />
+        <Footer />
       </div>
     </div>
   );

@@ -137,7 +137,7 @@ const ProjectPage = () => {
         <button
           onClick={() => setCategory("Website")}
           className={`px-4 py-2 rounded ${
-            category === "Website" ? "bg-blue-600 text-white" : "bg-gray-200"
+            category === "Website" ? "bg-[#42677A] text-white" : "bg-gray-200"
           }`}
         >
           Website
@@ -145,7 +145,7 @@ const ProjectPage = () => {
         <button
           onClick={() => setCategory("Design")}
           className={`px-4 py-2 rounded ${
-            category === "Design" ? "bg-blue-600 text-white" : "bg-gray-200"
+            category === "Design" ? "bg-[#42677A] text-white" : "bg-gray-200"
           }`}
         >
           Design
@@ -159,15 +159,17 @@ const ProjectPage = () => {
           .map((card, index) => (
             <div
               key={index}
-              className="bg-white p-4 rounded shadow-md hover:scale-105 transition transform duration-300 flex flex-col"
+              className="bg-[#42677A] p-4 rounded shadow-md hover:scale-105 transition transform duration-300 flex flex-col"
             >
               <img
                 src={card.image}
                 alt={card.title}
                 className="w-full h-2/3 object-cover rounded mb-4"
               />
-              <h3 className="lg:text-xl text-sm font-bold">{card.title}</h3>
-              <p className="text-sm text-gray-600">{card.description}</p>
+              <h3 className="lg:text-xl text-sm font-bold text-white">
+                {card.title}
+              </h3>
+              <p className="text-sm text-white">{card.description}</p>
             </div>
           ))}
       </div>
@@ -176,7 +178,7 @@ const ProjectPage = () => {
       <div className="flex justify-center gap-x-8 items-center mt-6">
         <button
           onClick={prevSlide}
-          className="bg-gray-200 px-4 py-2 rounded hover:bg-gray-300"
+          className="bg-[#42677A] px-4 py-2 rounded hover:bg-gray-300 hover:text-[#42677A] text-white"
         >
           Prev
         </button>
@@ -187,14 +189,14 @@ const ProjectPage = () => {
             <span
               key={index}
               className={`w-3 h-3 rounded-full ${
-                currentIndex / 4 === index ? "bg-blue-600" : "bg-gray-300"
+                currentIndex / 4 === index ? "bg-blue-600" : "bg-gray-300 "
               }`}
             ></span>
           ))}
         </div>
         <button
           onClick={nextSlide}
-          className="bg-gray-200 px-4 py-2 rounded hover:bg-gray-300"
+          className="bg-[#42677A] px-4 py-2 rounded hover:bg-gray-300 hover:text-[#42677A] text-white"
         >
           Next
         </button>
