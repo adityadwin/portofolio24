@@ -63,13 +63,15 @@ const Navbar = () => {
       </div>
       <div
         className={`logo bg-[#1E5775] ${
-          isScrolled ? "w-full" : "w-[48%] md:w-2/6 lg:w-1/3"
+          isScrolled
+            ? "w-full h-16 rounded-b-3xl"
+            : "w-[48%] md:w-2/6 lg:w-1/3 "
         } h-16 lg:rounded-b-3xl rounded-b-2xl fixed mt-[-15px] top-0 left-0 right-0 mx-auto z-50 transition-all duration-300`}
       >
         <ul
           className={`flex items-center justify-center ${
             isScrolled
-              ? "gap-6 lg:gap-8 text-sm mt-[20px] md:mt-5 lg:mt-7" // Jarak lebih rapat ketika di-scroll
+              ? "gap-6 lg:gap-8 text-sm mt-[19px] md:mt-5 lg:mt-7 " // Jarak lebih rapat ketika di-scroll
               : "gap-2 lg:gap-0 lg:justify-around md:mt-5 lg:mt-7" // Default jarak sebelum di-scroll
           } p-2 lg:p-0  text-center text-fuchsia-100 mt-[29px] md:text-base text-[10px] lg:text-base`}
         >

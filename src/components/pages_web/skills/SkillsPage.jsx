@@ -1,4 +1,16 @@
 import { useEffect } from "react";
+import html from "../../../assets/icons/html.png";
+import css from "../../../assets/icons/css.png";
+import js from "../../../assets/icons/js.png";
+import php from "../../../assets/icons/php.png";
+import reactjs from "../../../assets/icons/reactjs.png";
+import wp from "../../../assets/icons/wp.png";
+import mysql from "../../../assets/icons/mysql.png";
+import tw from "../../../assets/icons/tw.png";
+import ck from "../../../assets/icons/ck.png";
+import ph from "../../../assets/icons/ph.png";
+import cr from "../../../assets/icons/cr.png";
+import figma from "../../../assets/icons/figma.png";
 
 const SkillsPage = () => {
   useEffect(() => {
@@ -30,23 +42,8 @@ const SkillsPage = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const icons1 = [
-    "https://img.icons8.com/?size=100&id=20909&format=png&color=000000",
-    "https://img.icons8.com/?size=100&id=20909&format=png&color=000000",
-    "https://img.icons8.com/?size=100&id=20909&format=png&color=000000",
-    "https://img.icons8.com/?size=100&id=20909&format=png&color=000000",
-    "https://img.icons8.com/?size=100&id=20909&format=png&color=000000",
-    "https://img.icons8.com/?size=100&id=20909&format=png&color=000000",
-  ];
-
-  const icons2 = [
-    "https://img.icons8.com/?size=100&id=20909&format=png&color=000000",
-    "https://img.icons8.com/?size=100&id=20909&format=png&color=000000",
-    "https://img.icons8.com/?size=100&id=20909&format=png&color=000000",
-    "https://img.icons8.com/?size=100&id=20909&format=png&color=000000",
-    "https://img.icons8.com/?size=100&id=20909&format=png&color=000000",
-    "https://img.icons8.com/?size=100&id=20909&format=png&color=000000",
-  ];
+  const icons1 = [html, css, js, php, reactjs, wp];
+  const icons2 = [mysql, tw, ck, ph, cr, figma];
 
   return (
     <div
@@ -55,7 +52,7 @@ const SkillsPage = () => {
     >
       {/* Title Section */}
       <div className="flex flex-col lg:flex-row gap-x-20 mb-8">
-        <div className="box scroll-animate opacity-0 flex justify-center items-center text-center lg:w-[200px] w-[170px] h-[60px]  lg:h-[75px] bg-[#42677A] text-white rounded-tl-[50px] rounded-br-[50px] lg:text-3xl text-2xl font-semibold">
+        <div className="box scroll-animate opacity-0 flex justify-center items-center text-center lg:w-[200px] w-[170px] h-[60px] lg:h-[75px] bg-[#42677A] text-white rounded-tl-[50px] rounded-br-[50px] lg:text-3xl text-2xl font-semibold">
           Skills
         </div>
       </div>
@@ -65,10 +62,10 @@ const SkillsPage = () => {
         {icons1.map((icon, index) => (
           <div
             key={index}
-            className="icon scroll-animate opacity-0 flex justify-center items-center "
+            className="icon scroll-animate opacity-0 flex justify-center items-center hover:scale-110 transition-transform duration-300 ease-in-out transform"
           >
             <img
-              className="lg:w-24 lg:h-24 w-22 h-22"
+              className="lg:w-24 lg:h-24 w-16 h-16"
               src={icon}
               alt={`Icon ${index + 1}`}
             />
@@ -81,10 +78,10 @@ const SkillsPage = () => {
         {icons2.map((icon, index) => (
           <div
             key={index}
-            className="icon scroll-animate opacity-0 flex justify-center items-center"
+            className="icon scroll-animate opacity-0 flex justify-center items-center hover:scale-110 transition-transform duration-300 ease-in-out transform"
           >
             <img
-              className="lg:w-24 lg:h-24 w-22 h-22"
+              className="lg:w-24 lg:h-24  w-16 h-16"
               src={icon}
               alt={`Icon ${index + 1}`}
             />

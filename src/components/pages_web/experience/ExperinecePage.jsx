@@ -35,11 +35,10 @@ const Experience = () => {
       title: "Kodepedia Matari Studio  | Intership",
       description: "Mentor | August 2023 - September 2023",
       list: [
-        "Mendapatkan total 35+ klien desain melalui platform Shopee dengan rating kepuasan 4.9/5.0.",
-        "Berhasil menyelesaikan 19 proyek desain yang berbeda dalam waktu 5 hari.",
-        "Melakukan instalasi OS Windows, Linux, Debian dan sistem operasi android.",
-        "Memberikan solusi teknis sesuai kebutuhan klien secara efektif dan efisien.",
-        "Meningkatkan kualitas perangkat klien melalui troubleshooting dan upgrade perangkat keras.",
+        "Menyampaikan materi CorelDraw kepada peserta kursus untuk memahami konsep desain.",
+        "Mendampingi peserta dalam mengerjakan tugas sederhana desain hingga selesai.",
+        "Berkolaborasi dalam tim untuk mengembangkan sebuah website e-learning.",
+        "Membantu membuat UML diagram untuk memetakan alur sistem dalam proyek.",
       ],
     },
     {
@@ -57,10 +56,11 @@ const Experience = () => {
       title: "Self Employed  | Freelancer",
       description: "Graphic Designer & IT Technician| January 2021 - Present",
       list: [
-        "Menyampaikan materi CorelDraw kepada peserta kursus untuk memahami konsep desain.",
-        "Mendampingi peserta dalam mengerjakan tugas sederhana desain hingga selesai.",
-        "Berkolaborasi dalam tim untuk mengembangkan sebuah website e-learning.",
-        "Membantu membuat UML diagram untuk memetakan alur sistem dalam proyek.",
+        "Mendapatkan total 35+ klien desain melalui platform Shopee dengan rating kepuasan 4.9/5.0.",
+        "Berhasil menyelesaikan 19 proyek desain yang berbeda dalam waktu 5 hari.",
+        "Melakukan instalasi OS Windows, Linux, Debian dan sistem operasi android.",
+        "Memberikan solusi teknis sesuai kebutuhan klien secara efektif dan efisien.",
+        "Meningkatkan kualitas perangkat klien melalui troubleshooting dan upgrade perangkat keras.",
       ],
     },
   ];

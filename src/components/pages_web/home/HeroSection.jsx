@@ -72,14 +72,14 @@ const Hero = () => {
     >
       <div className="left-side md:w-screen lg:w-3/4 py-4 md:py-8 lg:py-12">
         {/* Main heading */}
-        <h1 className="scroll-animate opacity-0 text-[50px] md:text-[120px] lg:text-[110px] font-bold text-[#1E5775] leading-[40px] md:leading-[90px] lg:leading-[90px] md:w-[100%] lg:w-[90%]">
+        <h1 className="scroll-animate opacity-0 text-[60px] md:text-[120px] lg:text-[110px] font-bold text-[#42677A] leading-[50px] md:leading-[90px] lg:leading-[90px] md:w-[100%] lg:w-[90%]">
           Hi, nice to meet you👋
         </h1>
 
         {/* Sub heading with name */}
-        <h2 className="scroll-animate opacity-0 text-[45px] md:text-[110px] lg:text-[85px] font-bold leading-[40px] md:leading-[90px] lg:leading-[35px] mt-4 md:mt-6 lg:mt-8 text-[#1E5775]">
+        <h2 className="scroll-animate opacity-0 text-[55px] md:text-[110px] lg:text-[85px] font-bold leading-[50px] md:leading-[90px] lg:leading-[35px] mt-4 md:mt-6 lg:mt-8 text-[#42677A]">
           i&apos;m
-          <span className="md:text-[95px] lg:text-[70px] text-[45px] ms-4 text-[#97BDD1] md:mt-20 lg:mt-14">
+          <span className="md:text-[95px] lg:text-[70px] text-[55px] ms-4 text-[#7297AB] md:mt-20 lg:mt-14">
             Aditya
           </span>
         </h2>
