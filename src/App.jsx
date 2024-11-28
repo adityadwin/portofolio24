@@ -1,6 +1,7 @@
 import Navbar from "./components/header_web/Navbar";
 import Experience from "./components/pages_web/experience/ExperinecePage";
 import Hero from "./components/pages_web/home/HeroSection";
+import ProjectPage from "./components/pages_web/projects/ProjectPage";
 import SkillsPage from "./components/pages_web/skills/SkillsPage";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
         <Hero />
         <SkillsPage />
         <Experience />
+        <ProjectPage />
       </div>
     </div>
   );
